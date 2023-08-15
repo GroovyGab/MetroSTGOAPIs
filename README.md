@@ -10,7 +10,7 @@ Este repositorio está dedicado a proveer acceso a las diversas APIs que usa Met
   
 - Información especifica acerca de una estación: GET https://8pt7kdrkb0.execute-api.us-east-1.amazonaws.com/UAT/informacion/{*CÓDIGO_DE_ESTACIÓN}
   
-- Información especifica a Metroarte de una estación: GET https://8pt7kdrkb0.execute-api.us-east-1.amazonaws.com/UAT/metroarte?estacion={*CÓDIGO_DE_ESTACIÓN}
+- Información especifica a Metroarte de una estación: GET https://8pt7kdrkb0.execute-api.us-east-1.amazonaws.com/UAT/metroarte?estacion={*CÓDIGO_DE_ESTACIÓN} (Requiere que el header "User-Agent" esté presente en la petición o la página responderá con 403 Forbbiden)
   
 - Información sobre rutas expresas: GET https://8pt7kdrkb0.execute-api.us-east-1.amazonaws.com/UAT/ruta
   
