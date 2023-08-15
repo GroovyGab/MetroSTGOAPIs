@@ -23,3 +23,9 @@ Este repositorio está dedicado a proveer acceso a las diversas APIs que usa Met
 - Proyectos: GET https://8pt7kdrkb0.execute-api.us-east-1.amazonaws.com/UAT/proyectos/{*NÚMERO_DE_LINEA}
 
 _ Notificaciones app: GET https://tk9ktk356f.execute-api.us-east-1.amazonaws.com/UAT/data
+
+- Intermodalidad: GET https://8pt7kdrkb0.execute-api.us-east-1.amazonaws.com/UAT/intermodalidad?estacion={*CÓDIGO_DE_ESTACIÓN}&intermodal={MODALIDAD}&tipo=
+
+- Info. Ascensores: GET https://8pt7kdrkb0.execute-api.us-east-1.amazonaws.com/UAT/ascensores/{*CÓDIGO_DE_ESTACIÓN}
+
+- Info. Oficina de Atención al Cliente: GET https://8pt7kdrkb0.execute-api.us-east-1.amazonaws.com/UAT/oac/{*CÓDIGO_DE_ESTACIÓN}
