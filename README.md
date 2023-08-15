@@ -21,3 +21,5 @@ Este repositorio está dedicado a proveer acceso a las diversas APIs que usa Met
 - Agenda cultural: GET https://8pt7kdrkb0.execute-api.us-east-1.amazonaws.com/UAT/agendacultural
   
 - Proyectos: GET https://8pt7kdrkb0.execute-api.us-east-1.amazonaws.com/UAT/proyectos/{*NÚMERO_DE_LINEA}
+
+_ Notificaciones app: GET https://tk9ktk356f.execute-api.us-east-1.amazonaws.com/UAT/data
